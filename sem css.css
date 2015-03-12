@@ -32,6 +32,8 @@ html {
 
 button {
 	font-family: OpenSans;
+	border-style: none;
+	padding: 10px;
 }
 
 body { 

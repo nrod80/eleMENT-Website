@@ -177,15 +177,6 @@ a:hover {
 	z-index: 98;
 	width: 300px;}
 
-.slide:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left:0;
-  right:0;
-}
-
 .title {
   width: 75%;
   padding: 1.5%;
@@ -218,6 +209,10 @@ a:hover {
 #title {
   background-image: url("brick its fun.jpg");
    background-attachment: fixed;  
+}
+
+#slide1 {
+  background-image: url("1871.jpg");
 }
 
 #slide1:before {

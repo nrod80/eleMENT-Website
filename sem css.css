@@ -32,7 +32,7 @@ html {
 
 button {
 	font-family: OpenSans;
-	border-style: none;
+	border-style: 1px;
 	padding: 10px;
 }
 

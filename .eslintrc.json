@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true,
+      "classes": true
+    }
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "commonjs": true,
+    "es6": true
+  },
+  "rules": {
+    "no-case-declarations": [0],
+    "no-console": [0],
+    "no-debugger": "error",
+    "no-empty": [2, {"allowEmptyCatch": true}],
+    "no-fallthrough": [0],
+    "no-unused-vars": ["error", { "ignoreRestSiblings": true }],
+    "no-undef": "error",
+    "no-unused-vars": [0]
+  }
+}
